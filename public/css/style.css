@@ -1,0 +1,170 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+.container {
+  margin: 15vh 0;
+}
+
+.admin {
+  width: 50%;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+  .admin {
+    width: 95%;
+  }
+}
+.admin ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.admin ul li {
+  margin: 0;
+  padding: 0;
+  float: left;
+  width: 20vh;
+  height: 32vh;
+  padding: 3vh;
+  transition: 500;
+  border-radius: 1vh;
+  cursor: pointer;
+}
+.admin ul li:hover {
+  background-color: rgba(170, 170, 170, 0.548);
+}
+.admin ul li b {
+  font-family: sans-serif;
+}
+@media only screen and (max-width: 768px) {
+  .admin {
+    width: 95%;
+  }
+}
+
+header {
+  top: 0;
+  height: auto;
+  width: 100%;
+  background-color: white;
+  padding: 1vh;
+  position: fixed;
+  box-shadow: 1px 1px 1px #aaa;
+  z-index: 5;
+}
+header h1 {
+  color: deepskyblue;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.devinnete {
+  width: 20%;
+  height: auto;
+  background-color: #aaa;
+  border-radius: 1vh;
+  margin: 2vh auto;
+  padding: 5vh;
+  box-shadow: 1px 1px 2px #aaa;
+  color: white;
+}
+.devinnete a {
+  color: black;
+  font-family: calibri;
+  text-decoration: none;
+  font-size: 3vh;
+}
+.devinnete ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.devinnete ul li {
+  margin: 0;
+  padding: 0;
+  width: 10vh;
+  height: 4vh;
+  font-size: 2vh;
+}
+
+/**
+le box
+
+**/
+#show-box {
+  position: fixed;
+  width: 60%;
+  height: 80%;
+  background-color: white;
+  top: 15vh;
+  z-index: 2;
+  margin: 0 auto;
+  border-radius: 0.5vh;
+  left: 30vh;
+  overflow: hidden;
+  overflow-Y: scroll;
+}
+
+.cont {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.6);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* img*/
+.header-box {
+  height: 7vh;
+  background-color: deepskyblue;
+  text-align: center;
+  font-size: 3vh;
+  color: white;
+  font-family: calibri;
+  line-height: 7vh;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+img:active {
+  transform: scale(0.95);
+}
+
+.lecture-img {
+  border: 1px solid;
+  padding: 0.5vh;
+  border-radius: 1vh;
+}
+
+.lecture-img img {
+  width: 3vh;
+  height: 3vh;
+}
+
+.lecture-img:hover {
+  cursor: pointer;
+}
+
+.lecture-img:active {
+  transform: scale(0.95);
+}
+
+/* the end lecture-img */
+/* img auteur */
+.img_auteur {
+  width: 22vh;
+  height: 22vh;
+  border-radius: 15vh;
+  transform: rotate(180deg);
+}
+
+/* the end img auteur */
+
+/*# sourceMappingURL=style.css.map */
